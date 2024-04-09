@@ -4,7 +4,11 @@ Key points :-
 3. Autonomous System could be a large network, collection of routes etc. and is viewed as a black box from BGP perspective.
 4. Each AS is allocated a number by IANA, the internet assigned number(ASN).
 5. ASNs are 16 bit in length and range from 0 to 65535, the range from 64512 to 65534 is private.
-6. 
+6. ASNs are used by the BGP to identify different entities on the network
+7. BGP is designed to be reliable and distributed, and it operates of TCP/179 - It includes error correction and flow control - Reliable.
+8. 
+
+
 
 
 
