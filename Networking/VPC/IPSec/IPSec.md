@@ -11,7 +11,7 @@ IPSec has two main phases
         - IKE Security Association created(phase 1 tunnel)
    2. IKE Phase 2(Fast & Agile)
         - Uses the keys agreed in phase1
-        - Agree encryption method, and keys used for bul transfer
+        - Agree encryption method, and keys used for bulk transfer
         - Create IPSec SA(Security Association) -- phase 2 tunnel(architecturally rnning over phase 1)
 
 IKE Phase 1 Steps --------------------
