@@ -1,4 +1,4 @@
-1. IPSec is a grop of Protocols. It sets up secure tunnel over insecure networks.
+1. IPSec is a group of Protocols. It sets up secure tunnel over insecure networks.
 2. IPSec provides Athentication.
 3. Traffic using IPSec are encrypted.
 4. Interesting traffic - Traffic matching specific rules then the tunnel is created else it is torn down.
