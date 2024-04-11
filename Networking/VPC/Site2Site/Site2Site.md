@@ -22,6 +22,7 @@ Static vs Dynamic VPN:
  Static VPN uses static network configuration: static routes are added to the route tables AWS side, static networks has to be         identified on the VPN connection on-premise side. It is simple, it just uses IPSec, works anywhere, having limitation on terms of HA
 
  Dynamic VPN uses BGP: allows routing on the fly, allows multiple links to be used at once between the same locations. Allows using HA    available architectures.
+ 
  Route propagation: if enabled means that routes are added ro the Route Table automatically
 
 Considerations for VPN:
