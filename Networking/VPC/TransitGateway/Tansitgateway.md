@@ -26,3 +26,7 @@ Advanced Transit Gateway Deep Dive
 4. All attachments can route to all attachments.
 
 Advanced VPC Routing
+- Subnets are associated with 1 route table (RT) only, no more noe less!
+- This route tables is either the main route table from the VPC or a custom route table
+- In case of a custom route table association with a subnet, the main route table is disassociated. In case the custom RT is removed, the main RT is associated again with the subnet
+- 
