@@ -24,3 +24,5 @@ Advanced Transit Gateway Deep Dive
 2. All attachments use this RT for routing decisions
 3. All attachments propagates(add) route to it
 4. All attachments can route to all attachments.
+
+Advanced VPC Routing
