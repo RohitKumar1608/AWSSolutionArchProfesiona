@@ -17,3 +17,10 @@
 Reference link :- 
 
 https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/aws-site-to-site-vpn.html
+
+Advanced Transit Gateway Deep Dive 
+
+1. A TGW default has one RT
+2. All attachments use this RT for routing decisions
+3. All attachments propagates(add) route to it
+4. All attachments can route to all attachments.
