@@ -14,3 +14,6 @@
      - We can share transit gateways using AWS RAM
      - Transit Gateways offer less complex architectures compared to VPC peering solutions
 
+Reference link :- 
+
+https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/aws-site-to-site-vpn.html
