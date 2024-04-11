@@ -29,4 +29,12 @@ Advanced VPC Routing
 - Subnets are associated with 1 route table (RT) only, no more noe less!
 - This route tables is either the main route table from the VPC or a custom route table
 - In case of a custom route table association with a subnet, the main route table is disassociated. In case the custom RT is removed, the main RT is associated again with the subnet
-- 
+- RT can associated with an internet gateway (IGW) or virtual private gateway (VGW)
+- IPv4/6 are handled separately within a RT
+- Routes send traffic based on a destination to a target
+- Route tables have a maximum of 50 static routes and 100 dynamic routes
+- When a traffic arrives to an interface (IGW, VGW), it is matched to the relevant route table
+- All routes from a route table are evaluated - highest-priority matching is used
+- Route tables can contain 2 types of routes:
+     - Static routes: added manually by us
+     - Propagated routes: added when enabled by us on the VPC or on any individual RT
