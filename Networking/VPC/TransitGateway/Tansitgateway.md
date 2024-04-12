@@ -73,5 +73,6 @@ Ingress Routing ------
 - The security appliance is sitting in the public subnet which has a RT assigned to it. This RT sends all unmatched traffic out through    the IGW and anything for the corporate network through the VGW
 - Ingress routing allows to assign route tables to gateways (Gateway route tables). Gateway route tables can be attached to internet       gateways or virtual gateways and can be used to take action on inbound traffic (route to a security instance for assessment)
 
+<img width="1440" alt="Screenshot 2024-04-12 at 8 17 07 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/4512e715-b35e-4330-bf6e-28f8e76b0e91">
 
 
