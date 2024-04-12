@@ -55,3 +55,8 @@ Advanced VPC Routing
        - VPN Static
        - VPN BGP
        - AS_PATH (distance within two logical systems)
+    
+VPC Routing - Basics
+
+<img width="1440" alt="Screenshot 2024-04-11 at 9 01 02 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/19521c6a-c56b-4866-834f-1c71391aa4f7">
+
