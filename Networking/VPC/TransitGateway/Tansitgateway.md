@@ -29,6 +29,10 @@ Advanced Transit Gateway Deep Dive
 3. All attachments propagates(add) route to it
 4. All attachments can route to all attachments.
 
+Transit Gateway - Isolated Routing
+<img width="1440" alt="Screenshot 2024-04-11 at 8 47 37 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/271f2452-fd9a-4301-b4bc-73b9a8ef6ccb">
+<img width="1440" alt="Screenshot 2024-04-11 at 8 59 11 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/b2780f09-3d50-4cc6-bcb2-c5dbc14cd2a0">
+
 Advanced VPC Routing
 - Subnets are associated with 1 route table (RT) only, no more noe less!
 - This route tables is either the main route table from the VPC or a custom route table
