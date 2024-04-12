@@ -67,6 +67,11 @@ CIDR Overlap :-------
 <img width="1440" alt="Screenshot 2024-04-12 at 8 05 52 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/6a7947b2-0ab8-44b1-854b-1b34bd3b772f">
 <img width="1440" alt="Screenshot 2024-04-12 at 8 12 02 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/400252f1-8e7b-4d50-8037-fc58a0de5a66">
 
+Ingress Routing ------
+
+- All outgoing traffic is routed to a security appliances
+- The security appliance is sitting in the public subnet which has a RT assigned to it. This RT sends all unmatched traffic out through    the IGW and anything for the corporate network through the VGW
+- Ingress routing allows to assign route tables to gateways (Gateway route tables). Gateway route tables can be attached to internet       gateways or virtual gateways and can be used to take action on inbound traffic (route to a security instance for assessment)
 
 
 
