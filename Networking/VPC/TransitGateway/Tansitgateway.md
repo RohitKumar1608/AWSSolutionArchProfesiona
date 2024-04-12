@@ -40,10 +40,10 @@ Advanced VPC Routing
      - Propagated routes: added when enabled by us on the VPC or on any individual RT
  
 - Evaluation rule for the routes:
-Longest prefix wins, example /32 wins over /24, /16 or /0. More specific routes always win!
-Static routes take priority over propagated routes
-For any routes learned by propagation:
-DX
-VPN Static
-VPN BGP
-AS_PATH (distance within two logical systems)
+   - Longest prefix wins, example /32 wins over /24, /16 or /0. More specific routes always win!
+   - Static routes take priority over propagated routes
+   - For any routes learned by propagation:
+       - DX
+       - VPN Static
+       - VPN BGP
+       - AS_PATH (distance within two logical systems)
