@@ -60,5 +60,13 @@ VPC Routing - Basics
 
 <img width="1440" alt="Screenshot 2024-04-11 at 9 01 02 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/19521c6a-c56b-4866-834f-1c71391aa4f7">
 
-##Advanced VPC Routing
+##Advanced VPC Routing------------------
+
+CIDR Overlap :-------
+
+<img width="1440" alt="Screenshot 2024-04-12 at 8 05 52 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/6a7947b2-0ab8-44b1-854b-1b34bd3b772f">
+<img width="1440" alt="Screenshot 2024-04-12 at 8 12 02 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/400252f1-8e7b-4d50-8037-fc58a0de5a66">
+
+
+
 
