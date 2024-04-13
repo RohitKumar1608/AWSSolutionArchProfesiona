@@ -82,8 +82,6 @@ Accelerated Site to Site VPN :-
 
 <img width="1440" alt="Screenshot 2024-04-13 at 8 41 52 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/8995fff9-30b0-432e-9003-90c7c7f7a49b">
 <img width="1440" alt="Screenshot 2024-04-13 at 8 43 18 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/be4135a3-8145-4c0c-8fc3-4d1a0bb5a59d">
-<img width="1440" alt="Screenshot 2024-04-13 at 8 58 09 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/beb5f08c-966f-441f-aa75-b2630932482b">
-<img width="1440" alt="Screenshot 2024-04-13 at 9 01 11 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/18a0c0d5-9e49-47b6-9e09-ccdc3d75c9b3">
 
 - Accelerated Site-to-Site VPN architecture:
 
