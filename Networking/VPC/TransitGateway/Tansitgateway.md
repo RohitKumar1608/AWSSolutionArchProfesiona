@@ -75,4 +75,10 @@ Ingress Routing ------
 
 <img width="1440" alt="Screenshot 2024-04-12 at 8 17 07 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/4512e715-b35e-4330-bf6e-28f8e76b0e91">
 
+Accelerated Site to Site VPN :- 
+
+ - Performance enhancement for AWS Site-to-Site VPN that uses the AWS global network, the same network used for Global Accelerator and CloudFront
+- Using a classic Site-to-Site VPN, the traffic goes through the public internet. In order to avoid this, some companies use a Site-to-    Site VPN over Direct Connect. Direct Connect offers more better performance, but at a higher cost. Since DX is not an option for         everybody, accelerated Site-to-Site VPN was created to improve performance compared to classic Site-to-Site VPNs
+- Accelerated Site-to-Site VPN architecture:
+
 
