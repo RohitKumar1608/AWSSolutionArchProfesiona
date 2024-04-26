@@ -1,8 +1,8 @@
 **DNS Fundamentals**
-DNS is a discovery service, translate information which machines need into information that humans need and vice-versa
-Example: www.amazon.com => 104.98.34.131
-DNS database is a **huge distributed database**
-DNS allows a DNS resolver server to find a Zone File on a Name Sever (NS) and query  it, retrieving the necessary IP address for a DNS name
+  - DNS is a discovery service, translate information which machines need into information that humans need and vice-versa
+  - Example: www.amazon.com => 104.98.34.131
+  - DNS database is a **huge distributed database**
+  - DNS allows a DNS resolver server to find a Zone File on a Name Sever (NS) and query  it, retrieving the necessary IP address for a DNS name
 
 **DNS Terminology**
 DNS Client: refers to a customer PC, laptop, tablet, etc.
