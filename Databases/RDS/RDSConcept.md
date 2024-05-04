@@ -13,6 +13,7 @@
 <img width="1440" alt="Screenshot 2024-05-04 at 8 57 23 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/6196174c-5da8-4083-b5c1-f35f508a2022">
 <img width="1440" alt="Screenshot 2024-05-04 at 10 05 33 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/7f75a961-9018-4ce0-add4-327afca3138f">****RDS Multi-AZ******
 <img width="1440" alt="Screenshot 2024-05-04 at 10 07 22 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/1df9bafe-346a-4a76-b5b4-67aeecada7b0">
+
 ### RDS - Multi-AZ Cluster
 ****Notes******
 
