@@ -53,7 +53,7 @@
 
 ****RDS - Read Replicas****
 <img width="1440" alt="Screenshot 2024-05-04 at 4 26 40 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/5a445b41-a710-4ec0-8097-4813a4351922">
-****Why Read Replicas****
+****Why Read Replicas????****
 <img width="1440" alt="Screenshot 2024-05-04 at 4 27 47 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/a4ad9f44-0776-40db-b93e-227e1541586b">
 <img width="1440" alt="Screenshot 2024-05-04 at 4 29 13 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/1c5a4765-5573-47d9-8dd7-47a3921c3696">
 
