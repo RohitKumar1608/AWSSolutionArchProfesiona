@@ -51,3 +51,4 @@
 <img width="1440" alt="Screenshot 2024-05-04 at 3 55 23 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/fdea8014-98a0-40ad-a56c-a89afe34190b">
 <img width="1440" alt="Screenshot 2024-05-04 at 3 57 03 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/9f2110e2-8778-419f-bae8-f6935fbe2f17">
 
+****RDS - Read Replicas****
