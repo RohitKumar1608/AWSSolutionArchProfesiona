@@ -12,3 +12,5 @@
       - Read Replica can be in same region or different regions.
 
 <img width="1440" alt="Screenshot 2024-05-04 at 8 57 23 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/6196174c-5da8-4083-b5c1-f35f508a2022">
+
+****RDS Multi-AZ******
