@@ -15,6 +15,18 @@
 ****RDS Multi-AZ******
 
 <img width="1440" alt="Screenshot 2024-05-04 at 10 05 33 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/7f75a961-9018-4ce0-add4-327afca3138f">
+****Notes******
+      - 2 Readers only in different AZ
+      - Writer -> Synchronously writes to the 2 Readers
+      - From Instance Mode , in Multi AZ Cluster mode Readers are usable.
+      - Writer Can be used for Read and Write . Reader can be used only for the Read operations.
+      - Data is committed when at least one of the reader confirms writing is finished.
+      - Different that Aurora Cluster :- In RDS Multi AZ Cluster mode , Each instance has its own storage.
+      - Like Aurora , Access of the Cluster through the endpoints
+                - Cluster endpoint :- Database CNAME Points at the Writer and can be used for the read and Write
+                - Reader endpoint :- Directs any reads at an available reader instance
+                - Instance endpoint :- Points to specific instance . Used for testing and Fault finding.
+
 <img width="1440" alt="Screenshot 2024-05-04 at 10 07 22 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/1df9bafe-346a-4a76-b5b4-67aeecada7b0">
 <img width="1440" alt="Screenshot 2024-05-04 at 10 36 40 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/d2e8e7d6-e369-413c-bf6a-bc1740152462">
 <img width="1440" alt="Screenshot 2024-05-04 at 10 39 27 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/e4521e7a-7f5b-468f-80d6-36a37def5315">
