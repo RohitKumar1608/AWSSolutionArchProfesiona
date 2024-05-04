@@ -32,4 +32,22 @@
 <img width="1440" alt="Screenshot 2024-05-04 at 10 36 40 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/d2e8e7d6-e369-413c-bf6a-bc1740152462">
 <img width="1440" alt="Screenshot 2024-05-04 at 10 39 27 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/e4521e7a-7f5b-468f-80d6-36a37def5315">
 
-### RDS - Backup and Restore
+****RDS - Backup and Restore****
+
+****Notes******
+
+      Two Types Backup type functionality
+  	      - Automated Backup
+  	      - Manual Snapshots
+
+          - Both these are stored in S3. These buckets are managed by AWS.Won’t be visible in the AWS Console.Backup can be seen in RDS but              not in S3.
+          - Snapshot don’t expire that means you have to clean it once the RDS instance is deleted.
+          - Automated Backup once per day. Architecture is same :- First one is full ,subsequent is incremental.
+          - Every 5 min database transaction logs is also written to S3. Transaction logs has the details of the Operation performed on the              DB
+          - Recovery Point objective - 5min
+          - Retention Period is from 0 t0 35 days. 0 means Automated backup disabled. 
+
+<img width="1440" alt="Screenshot 2024-05-04 at 3 50 06 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/128925c8-c0bd-44a2-a4c6-cb45fcd857d7">
+<img width="1440" alt="Screenshot 2024-05-04 at 3 55 23 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/fdea8014-98a0-40ad-a56c-a89afe34190b">
+<img width="1440" alt="Screenshot 2024-05-04 at 3 57 03 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/9f2110e2-8778-419f-bae8-f6935fbe2f17">
+
