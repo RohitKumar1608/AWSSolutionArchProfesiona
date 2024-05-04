@@ -16,6 +16,7 @@
 
 <img width="1440" alt="Screenshot 2024-05-04 at 10 05 33 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/7f75a961-9018-4ce0-add4-327afca3138f">
 ****Notes******
+
       - 2 Readers only in different AZ
       - Writer -> Synchronously writes to the 2 Readers
       - From Instance Mode , in Multi AZ Cluster mode Readers are usable.
