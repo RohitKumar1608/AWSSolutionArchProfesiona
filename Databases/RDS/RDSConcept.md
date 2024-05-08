@@ -61,9 +61,10 @@
        - Authentication
        - Authorization
        - Encryption in Transit
-       - Encryption t Rest
-Encryption at Rest :-  depends on the database instance. 
-RDS supports EBS volume encryption - KMS
+       - Encryption at Rest
+     - Encryption at Rest :-  depends on the database instance. 
+     - RDS supports EBS volume encryption - KMS
+<img width="1440" alt="Screenshot 2024-05-08 at 10 52 03 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/8aa74023-62bd-4de8-953b-fd24bee7ee4a">
 
 <img width="1440" alt="Screenshot 2024-05-08 at 10 53 33 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/8a9e42f2-ab33-4ef3-bf27-12605752a7df">
 <img width="1440" alt="Screenshot 2024-05-08 at 10 55 06 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/6964bd16-5c96-41e2-b9ef-853c79fad8a2">
