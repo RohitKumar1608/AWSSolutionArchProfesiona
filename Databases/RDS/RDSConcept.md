@@ -64,3 +64,8 @@
        - Encryption t Rest
 Encryption at Rest :-  depends on the database instance. 
 RDS supports EBS volume encryption - KMS
+
+<img width="1440" alt="Screenshot 2024-05-08 at 10 53 33 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/8a9e42f2-ab33-4ef3-bf27-12605752a7df">
+<img width="1440" alt="Screenshot 2024-05-08 at 10 55 06 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/6964bd16-5c96-41e2-b9ef-853c79fad8a2">
+<img width="1440" alt="Screenshot 2024-05-08 at 11 02 54 AM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/b5bf5c2c-1ea2-4fa8-9c35-aa1d801a37b9">
+
