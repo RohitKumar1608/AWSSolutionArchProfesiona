@@ -155,3 +155,4 @@
    
 <img width="1440" alt="Screenshot 2024-05-20 at 10 50 32 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/130d4f18-b6fe-4f1c-8a85-f376442c28d2">
 
+- A NAT Gateway Can't tolerate the failure of an AZ
