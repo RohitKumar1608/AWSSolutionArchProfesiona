@@ -50,3 +50,26 @@
   - Active/Active: expensive, 0 recovery time
 
 <img width="1440" alt="Screenshot 2024-05-20 at 7 54 26 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/c89d4971-976a-4c77-834c-b0fbd538e22d">
+
+
+****DR Architecture - Storage****
+
+ ****Instance Store volumes:****
+    - Most high risk form of storage available
+    - If the host fails, the instance store volumes will also fail
+    - Should be viewed as temporary and unreliable storage
+
+ ****EBS:****
+    - Volumes are created an run in a single AZ (failure of AZ means failure of EBS volumes)
+    - Snapshots of EBS are stored in S3, will increase reliability
+
+ ****S3:****
+    - Data is replicated across multiple AZs
+    - One-Zone: not regionally resilient
+
+ ****EFS:****
+ 
+   - EFS file systems are replicated across multiple AZs
+   - They are by default regionally resilient - failure of a region means failure of EFS volumes
+
+
