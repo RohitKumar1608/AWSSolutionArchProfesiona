@@ -101,3 +101,29 @@
   - It will take the failure if a region in order for Lambda to be impacted
 
 <img width="1440" alt="Screenshot 2024-05-20 at 10 16 31 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/abc03df3-08cf-49eb-8136-db05d393c627">
+
+****DR Architecture - Databases****
+
+   - Running databases on EC2 should be done in certain cases only!
+     
+ ****DynamoDB:****
+   - Data is replicated between multiple nodes in different AZs
+   - Failure can occur only if the entire region fails
+
+ ****RDS:****
+
+   - Requires creation of a subnet group which specifies which subnet can be used in a VPC for a DB
+   - Normal RDS (not Aurora) involves a single instance or primary and standby instance running in different AZs
+   - Data is stored in local storage for each instance, data is replicated asynchronously to the standby
+   - If the primary instance fails, automatic fallback is done to the standby
+   - In case of Aurora, we can have one or more replicas in each AZs
+   - Aurora uses a cluster storage architecture, storage is shared between running DB instances
+   - Aurora can resist failures up to the entire region failure (not using Aurora Global)
+     
+****Global Databases:****
+
+  - DynamoDB Global Table: multi master replication between regional replicas.
+  - Aurora Global Databases: read-write cluster in one region, secondary read cluster in other regions. Replication happens at the          storage layer, no additional load placed on the DB
+  - Cross Region Read Replicas for RDS: asynchronous replication but not done on the storage layer
+
+
