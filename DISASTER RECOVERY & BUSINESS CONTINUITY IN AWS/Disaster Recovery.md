@@ -126,4 +126,6 @@
   - Aurora Global Databases: read-write cluster in one region, secondary read cluster in other regions. Replication happens at the          storage layer, no additional load placed on the DB
   - Cross Region Read Replicas for RDS: asynchronous replication but not done on the storage layer
 
+<img width="1440" alt="Screenshot 2024-05-20 at 10 28 52 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/af0d9c27-de2e-4371-b845-6f4579eaa467">
 
+<img width="1440" alt="Screenshot 2024-05-20 at 10 32 48 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/f79b78ed-3991-48c4-8c86-97591142df65">
