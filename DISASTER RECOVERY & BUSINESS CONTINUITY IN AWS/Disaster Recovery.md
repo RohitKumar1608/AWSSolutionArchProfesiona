@@ -70,12 +70,10 @@
     - Data is replicated across multiple AZs
     - One-Zone: not regionally resilient
 
-<img width="1440" alt="Screenshot 2024-05-20 at 10 03 12 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/e3b9bba2-6814-4e4c-88a4-2d238cae3c29">
-
-
  ****EFS:****
  
    - EFS file systems are replicated across multiple AZs
    - They are by default regionally resilient - failure of a region means failure of EFS volumes
 
 
+<img width="1440" alt="Screenshot 2024-05-20 at 10 03 12 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/e3b9bba2-6814-4e4c-88a4-2d238cae3c29">
