@@ -98,4 +98,6 @@
 
   - By default runs in public mode
   - In VPC mode (private) Lambdas are injected in VPCs. If an AZ fails, Lambda can be automatically injected in another subnet in a         different AZ
+
+  <img width="1440" alt="Screenshot 2024-05-20 at 10 16 31 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/abc03df3-08cf-49eb-8136-db05d393c627">
   - It will take the failure if a region in order for Lambda to be impacted
