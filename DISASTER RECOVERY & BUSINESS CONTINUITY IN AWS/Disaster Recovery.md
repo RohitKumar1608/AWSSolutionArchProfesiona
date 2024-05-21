@@ -77,3 +77,25 @@
 
 
 <img width="1440" alt="Screenshot 2024-05-20 at 10 03 12 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/e3b9bba2-6814-4e4c-88a4-2d238cae3c29">
+
+****DR Architecture - Compute****
+
+ **EC2:**
+ 
+    - If the host fails, EC2 instances fails as well
+    - An EC2 instance by itself is not resilient in any way
+    - If the failure is limited to one host, the instance can move to another host in the AZ. The EBS volume can be presented to the          new instance
+    - Auto Scaling Group: can be placed in multiple AZs, if the instance fails in one AZ, the ASG's role is to recreate them in another
+
+****ECS:****
+
+   - Can run it 2 modes: EC2 and Fargate
+   - EC2 mode: DR architecture is similar as above
+   - Fargate mode: containers are running on a cluster host managed by AWS being injected in VPCs
+   - Fargate can provide automatic HA by running things in different AZs
+
+****Lambda:****
+
+  - By default runs in public mode
+  - In VPC mode (private) Lambdas are injected in VPCs. If an AZ fails, Lambda can be automatically injected in another subnet in a         different AZ
+  - It will take the failure if a region in order for Lambda to be impacted
