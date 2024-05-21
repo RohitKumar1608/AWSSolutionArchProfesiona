@@ -55,15 +55,18 @@
 ****DR Architecture - Storage****
 
  ****Instance Store volumes:****
+ 
     - Most high risk form of storage available
     - If the host fails, the instance store volumes will also fail
     - Should be viewed as temporary and unreliable storage
 
  ****EBS:****
+ 
     - Volumes are created an run in a single AZ (failure of AZ means failure of EBS volumes)
     - Snapshots of EBS are stored in S3, will increase reliability
 
  ****S3:****
+ 
     - Data is replicated across multiple AZs
     - One-Zone: not regionally resilient
 
