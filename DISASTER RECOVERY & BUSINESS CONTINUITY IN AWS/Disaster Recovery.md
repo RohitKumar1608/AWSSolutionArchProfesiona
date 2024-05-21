@@ -144,3 +144,6 @@
 
   - Are tied to an AZ
   - Multiple interface endpoints can be deployed into different AZs
+
+<img width="1440" alt="Screenshot 2024-05-20 at 10 28 52 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/aae9d06b-34b4-4b11-8eea-001e2ca94384">
+
