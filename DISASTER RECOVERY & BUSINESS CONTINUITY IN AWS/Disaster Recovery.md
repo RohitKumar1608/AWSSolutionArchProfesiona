@@ -129,3 +129,18 @@
 <img width="1440" alt="Screenshot 2024-05-20 at 10 28 52 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/af0d9c27-de2e-4371-b845-6f4579eaa467">
 
 <img width="1440" alt="Screenshot 2024-05-20 at 10 32 48 PM" src="https://github.com/RohitKumar1608/AWSSolutionArchProfesiona/assets/95314238/f79b78ed-3991-48c4-8c86-97591142df65">
+
+****DR Architecture - Networking****
+
+****Networking at local level:****
+
+  - VPC are regionally resilient
+  - Certain gateway objects like VPC Router and IGW are also regionally resilient
+  - Subnets are tied to AZ they are located in, if the AZ fails, the subnet fails as well
+  - LB: regional services, nodes are deployed into each AZ we select
+  - By using a LB we can route traffic to AZs which are healthy
+
+**Interface endpoint:**
+
+  - Are tied to an AZ
+  - Multiple interface endpoints can be deployed into different AZs
